@@ -1,26 +1,3 @@
-/* 
- * hijack.c - force a process to load a library
- *
- *  modified to work as Get Current Time From TV by:
- *  sectroyer
- *  	(c) 2014
- *  modified to work on samsung F* series by:
- *  bugficks
- *	(c) 2013
- *
- *  ARM / Android version by:
- *  Collin Mulliner <collin[at]mulliner.org>
- *  http://www.mulliner.org/android/
- *	(c) 2012
- *
- *
- *  original x86 version by:
- *  Copyright (C) 2002 Victor Zandy <zandy[at]cs.wisc.edu>
- *
- *  License: LGPL 2.1
- *
- */
- 
 #define _XOPEN_SOURCE 500  /* include pread,pwrite */
 #define _GNU_SOURCE
 #include <stdio.h>
